@@ -7,12 +7,12 @@ import { FilterProvider } from './context/filter_context'
 import { CartProvider } from './context/cart_context'
 import { UserProvider } from './context/user_context'
 import { Auth0Provider } from '@auth0/auth0-react'
-// dev-pu8wyk-g.us.auth0.com
-// 7vHgXJ01aWGyMVLWdZUwQSUapigdjfKu
+// dev-jzvyszrm.us.auth0.com
+// nr75CC8OVF7MOk1Khiaw4uYiBAiCQqWQ
 ReactDOM.render(
   <Auth0Provider
-    domain={process.env.REACT_APP_AUTH_DOMAIN}
-    clientId={process.env.REACT_APP_AUTH_CLIENT_ID}
+    domain='dev-jzvyszrm.us.auth0.com'
+    clientId='nr75CC8OVF7MOk1Khiaw4uYiBAiCQqWQ'
     redirectUri={window.location.origin}
     cacheLocation='localstorage'
   >
